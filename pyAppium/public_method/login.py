@@ -25,13 +25,12 @@ class Test(unittest.TestCase):
         self.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', self.desired_caps)
         time.sleep(10)
         #self.driver.find_element_by_xpath("//*[@class='android.widget.TextView'and @index='1' and @text='分类']").click()
-        base_function.getLocator(self.driver,"login","user_input").send_keys("123456")
+        base_function.getLocator(self.driver,"login","user_input").send_keys("15120037748")
         base_function.getLocator(self.driver,"login","pwd_input").send_keys("123456")
         base_function.getLocator(self.driver,"login","login_button").click()
 
 
         # self.driver.find_element_by_xpath("//*[@class='android.widget.EditText'and @index='1']").send_keys("15120037748")
-
         # self.driver.find_element_by_id("com.elianshang.yougong:id/password").send_keys("123456")
         # self.driver.find_element_by_id("com.elianshang.yougong:id/login").click()
 

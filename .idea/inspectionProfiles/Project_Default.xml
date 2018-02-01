@@ -17,6 +17,8 @@
           <option value="webUIAuotoTest.TestScript.test_all_skulist.public" />
           <option value="pyAppium.script_test.test_login.config" />
           <option value="pyAppium.public_method.SendEmail.config" />
+          <option value="pyAppium.public_method.login.config" />
+          <option value="pyAppium.public_method.login.public_method" />
         </list>
       </option>
     </inspection_tool>
